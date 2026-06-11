@@ -14,7 +14,7 @@ from funcionFibonacci import fibonacci
 # ── Caso correcto ────────────────────────────────────────────────────────────
 def test_caso_correcto():
     """Verifica que la función retorna el valor correcto para n típico."""
-    assert fibonacci(10) == 55
+    assert fibonacci("H") == 55
     assert fibonacci(20) == 6765
     assert fibonacci(50) == 12586269025
 
